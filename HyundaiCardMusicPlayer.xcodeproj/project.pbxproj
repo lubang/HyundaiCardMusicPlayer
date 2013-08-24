@@ -13,21 +13,10 @@
 		516916EF17C87A04009834CC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 516916ED17C87A04009834CC /* Credits.rtf */; };
 		516916F217C87A04009834CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 516916F117C87A04009834CC /* AppDelegate.m */; };
 		516916F517C87A04009834CC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 516916F317C87A04009834CC /* MainMenu.xib */; };
-		516916FD17C87A04009834CC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 516916FC17C87A04009834CC /* SenTestingKit.framework */; };
-		516916FE17C87A04009834CC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 516916DE17C87A04009834CC /* Cocoa.framework */; };
-		5169170617C87A04009834CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5169170417C87A04009834CC /* InfoPlist.strings */; };
-		5169170917C87A04009834CC /* HyundaiCardMusicPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5169170817C87A04009834CC /* HyundaiCardMusicPlayerTests.m */; };
+		5169171317C87B29009834CC /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5169171217C87B29009834CC /* WebKit.framework */; };
+		5169171617C87F7D009834CC /* MusicPlayerWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 5169171517C87F7D009834CC /* MusicPlayerWindow.m */; };
+		5169171D17C8990E009834CC /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 5169171C17C8990E009834CC /* Icon.icns */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		516916FF17C87A04009834CC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 516916D317C87A04009834CC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 516916DA17C87A04009834CC;
-			remoteInfo = HyundaiCardMusicPlayer;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		516916DB17C87A04009834CC /* HyundaiCardMusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HyundaiCardMusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,12 +32,11 @@
 		516916F017C87A04009834CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		516916F117C87A04009834CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		516916F417C87A04009834CC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		516916FB17C87A04009834CC /* HyundaiCardMusicPlayerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HyundaiCardMusicPlayerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		516916FC17C87A04009834CC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		5169170317C87A04009834CC /* HyundaiCardMusicPlayerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HyundaiCardMusicPlayerTests-Info.plist"; sourceTree = "<group>"; };
-		5169170517C87A04009834CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5169170717C87A04009834CC /* HyundaiCardMusicPlayerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HyundaiCardMusicPlayerTests.h; sourceTree = "<group>"; };
-		5169170817C87A04009834CC /* HyundaiCardMusicPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HyundaiCardMusicPlayerTests.m; sourceTree = "<group>"; };
+		5169171217C87B29009834CC /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		5169171417C87F7D009834CC /* MusicPlayerWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicPlayerWindow.h; sourceTree = "<group>"; };
+		5169171517C87F7D009834CC /* MusicPlayerWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicPlayerWindow.m; sourceTree = "<group>"; };
+		5169171C17C8990E009834CC /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Icon.icns; path = Design/Icon.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,16 +44,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5169171317C87B29009834CC /* WebKit.framework in Frameworks */,
 				516916DF17C87A04009834CC /* Cocoa.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		516916F717C87A04009834CC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				516916FD17C87A04009834CC /* SenTestingKit.framework in Frameworks */,
-				516916FE17C87A04009834CC /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,8 +55,8 @@
 		516916D217C87A04009834CC = {
 			isa = PBXGroup;
 			children = (
+				5169171B17C898E4009834CC /* Design */,
 				516916E417C87A04009834CC /* HyundaiCardMusicPlayer */,
-				5169170117C87A04009834CC /* HyundaiCardMusicPlayerTests */,
 				516916DD17C87A04009834CC /* Frameworks */,
 				516916DC17C87A04009834CC /* Products */,
 			);
@@ -86,7 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				516916DB17C87A04009834CC /* HyundaiCardMusicPlayer.app */,
-				516916FB17C87A04009834CC /* HyundaiCardMusicPlayerTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,6 +73,7 @@
 		516916DD17C87A04009834CC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5169171217C87B29009834CC /* WebKit.framework */,
 				516916DE17C87A04009834CC /* Cocoa.framework */,
 				516916FC17C87A04009834CC /* SenTestingKit.framework */,
 				516916E017C87A04009834CC /* Other Frameworks */,
@@ -118,6 +98,8 @@
 				516916F117C87A04009834CC /* AppDelegate.m */,
 				516916F317C87A04009834CC /* MainMenu.xib */,
 				516916E517C87A04009834CC /* Supporting Files */,
+				5169171417C87F7D009834CC /* MusicPlayerWindow.h */,
+				5169171517C87F7D009834CC /* MusicPlayerWindow.m */,
 			);
 			path = HyundaiCardMusicPlayer;
 			sourceTree = "<group>";
@@ -134,23 +116,12 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5169170117C87A04009834CC /* HyundaiCardMusicPlayerTests */ = {
+		5169171B17C898E4009834CC /* Design */ = {
 			isa = PBXGroup;
 			children = (
-				5169170717C87A04009834CC /* HyundaiCardMusicPlayerTests.h */,
-				5169170817C87A04009834CC /* HyundaiCardMusicPlayerTests.m */,
-				5169170217C87A04009834CC /* Supporting Files */,
+				5169171C17C8990E009834CC /* Icon.icns */,
 			);
-			path = HyundaiCardMusicPlayerTests;
-			sourceTree = "<group>";
-		};
-		5169170217C87A04009834CC /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				5169170317C87A04009834CC /* HyundaiCardMusicPlayerTests-Info.plist */,
-				5169170417C87A04009834CC /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
+			name = Design;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,25 +143,6 @@
 			productName = HyundaiCardMusicPlayer;
 			productReference = 516916DB17C87A04009834CC /* HyundaiCardMusicPlayer.app */;
 			productType = "com.apple.product-type.application";
-		};
-		516916FA17C87A04009834CC /* HyundaiCardMusicPlayerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5169170F17C87A04009834CC /* Build configuration list for PBXNativeTarget "HyundaiCardMusicPlayerTests" */;
-			buildPhases = (
-				516916F617C87A04009834CC /* Sources */,
-				516916F717C87A04009834CC /* Frameworks */,
-				516916F817C87A04009834CC /* Resources */,
-				516916F917C87A04009834CC /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5169170017C87A04009834CC /* PBXTargetDependency */,
-			);
-			name = HyundaiCardMusicPlayerTests;
-			productName = HyundaiCardMusicPlayerTests;
-			productReference = 516916FB17C87A04009834CC /* HyundaiCardMusicPlayerTests.octest */;
-			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -214,7 +166,6 @@
 			projectRoot = "";
 			targets = (
 				516916DA17C87A04009834CC /* HyundaiCardMusicPlayer */,
-				516916FA17C87A04009834CC /* HyundaiCardMusicPlayerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -227,34 +178,11 @@
 				516916E917C87A04009834CC /* InfoPlist.strings in Resources */,
 				516916EF17C87A04009834CC /* Credits.rtf in Resources */,
 				516916F517C87A04009834CC /* MainMenu.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		516916F817C87A04009834CC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5169170617C87A04009834CC /* InfoPlist.strings in Resources */,
+				5169171D17C8990E009834CC /* Icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		516916F917C87A04009834CC /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		516916D717C87A04009834CC /* Sources */ = {
@@ -263,26 +191,11 @@
 			files = (
 				516916EB17C87A04009834CC /* main.m in Sources */,
 				516916F217C87A04009834CC /* AppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		516916F617C87A04009834CC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5169170917C87A04009834CC /* HyundaiCardMusicPlayerTests.m in Sources */,
+				5169171617C87F7D009834CC /* MusicPlayerWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		5169170017C87A04009834CC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 516916DA17C87A04009834CC /* HyundaiCardMusicPlayer */;
-			targetProxy = 516916FF17C87A04009834CC /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		516916E717C87A04009834CC /* InfoPlist.strings */ = {
@@ -307,14 +220,6 @@
 				516916F417C87A04009834CC /* en */,
 			);
 			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-		5169170417C87A04009834CC /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5169170517C87A04009834CC /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -403,36 +308,6 @@
 			};
 			name = Release;
 		};
-		5169171017C87A04009834CC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HyundaiCardMusicPlayer.app/Contents/MacOS/HyundaiCardMusicPlayer";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HyundaiCardMusicPlayer/HyundaiCardMusicPlayer-Prefix.pch";
-				INFOPLIST_FILE = "HyundaiCardMusicPlayerTests/HyundaiCardMusicPlayerTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		5169171117C87A04009834CC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HyundaiCardMusicPlayer.app/Contents/MacOS/HyundaiCardMusicPlayer";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HyundaiCardMusicPlayer/HyundaiCardMusicPlayer-Prefix.pch";
-				INFOPLIST_FILE = "HyundaiCardMusicPlayerTests/HyundaiCardMusicPlayerTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -452,14 +327,7 @@
 				5169170E17C87A04009834CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		5169170F17C87A04009834CC /* Build configuration list for PBXNativeTarget "HyundaiCardMusicPlayerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5169171017C87A04009834CC /* Debug */,
-				5169171117C87A04009834CC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
